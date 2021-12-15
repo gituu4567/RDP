@@ -1,9 +1,9 @@
 #! /bin/bash
 printf "Take A Coke TO Enjoy" >&2
 {
-sudo useradd -m nuzk6781
-sudo adduser nuzk6781 sudo
-echo 'nuzk6781:Kali1234' | sudo chpasswd
+sudo useradd -m nena827819
+sudo adduser nena827819 sudo
+echo 'nena827819:Kali1234' | sudo chpasswd
 sed -i 's/\/bin\/sh/\/bin\/bash/g' /etc/passwd
 sudo apt-get update
 wget https://dl.google.com/linux/direct/chrome-remote-desktop_current_amd64.deb
@@ -20,12 +20,12 @@ sudo apt install --assume-yes --fix-broken
 sudo apt install nautilus nano -y 
 sudo apt -y install obs-studio
 sudo apt -y install firefox
-sudo adduser nuzk6781 chrome-remote-desktop
+sudo adduser nena827819 chrome-remote-desktop
 } &> /dev/null &&
 printf "\nSetup Completed " >&2 ||
 printf "\nError Occured " >&2
 printf '\nCheck https://remotedesktop.google.com/headless  Copy Command Of Debian Linux And Paste Down\n'
 read -p "Paste Here: " CRP
-su - nuzk6781 -c """$CRP"""
+su - nena827819 -c """$CRP"""
 printf 'Check https://remotedesktop.google.com/access/ \n'
 printf 'Your SUDO Pasword Is Kali1234 \n'
